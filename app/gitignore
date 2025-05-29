@@ -1,0 +1,22 @@
+# Android Studio
+.gradle/
+.idea/
+local.properties
+*.iml
+build/
+captures/
+.cxx/
+.externalNativeBuild/
+
+# Firebase
+firebase-debug.log
+
+# Jetpack Compose
+*.apk
+*.ap_
+
+# NDK
+obj/
+
+# Misc
+.DS_Store
