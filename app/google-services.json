@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185986281455",
+    "project_id": "venetto-tienda",
+    "storage_bucket": "venetto-tienda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185986281455:android:17812eda015d0a867f101a",
+        "android_client_info": {
+          "package_name": "com.example.venetto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmqq-kAmSzHDY2lPKZk7JpMa7I1pFhbOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

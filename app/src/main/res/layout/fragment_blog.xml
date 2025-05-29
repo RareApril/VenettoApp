@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Línea decorativa -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="#B0B0B0" />
+
+        <!-- Imagen del blog -->
+        <ImageView
+            android:id="@+id/img_blog2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_blog2" />
+
+        <!-- Fecha del blog -->
+        <TextView
+            android:id="@+id/textFechaBlog2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="10dp"
+            android:text="Apr 20, 2025"
+            android:textSize="12sp"
+            android:textColor="#555555" />
+
+        <!-- Título del blog -->
+        <TextView
+            android:id="@+id/textTituloBlog2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Diferencias entre el planchado Industrial y el Planchado Doméstico"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Resumen introductorio -->
+        <TextView
+            android:id="@+id/textIntroBlog2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Este blog está diseñado para jóvenes profesionales y estudiantes que desean mantenerse a la vanguardia en la industria textil."
+            android:textSize="14sp"
+            android:textColor="#333333" />
+        <!-- Imagen del segundo blog -->
+        <ImageView
+            android:id="@+id/img_blog1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_blog1" />
+
+        <!-- Fecha del segundo blog -->
+        <TextView
+            android:id="@+id/textFechaBlog1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="10dp"
+            android:text="Apr 10, 2025"
+            android:textSize="12sp"
+            android:textColor="#555555" />
+
+        <!-- Título del segundo blog -->
+        <TextView
+            android:id="@+id/textTituloBlog1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Eligiendo la maquinaria adecuada para tu taller textil en 2024"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Resumen introductorio del segundo blog -->
+        <TextView
+            android:id="@+id/textIntroBlog1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Este blog está diseñado para jóvenes profesionales y estudiantes que deseen mantenerse a la vanguardia en la industria textil."
+            android:textSize="14sp"
+            android:textColor="#333333" />
+    </LinearLayout>
+</ScrollView>
